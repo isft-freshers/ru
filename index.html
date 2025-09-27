@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./img/favicon.ico" type="image/x-icon" sizes="256x256"/>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" sizes="256x256"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>ISFT Freshers</title>
+    <meta name="description" content="Удобный молодёжный гид: расписание, клубы и волонтёрство — в одном месте">
+    <meta property="og:title" content="ISFT Freshers" />
+    <meta property="og:description" content="Удобный молодёжный гид: расписание, клубы и волонтёрство — в одном месте" />
+    <meta property="og:image" content="./img/og-img.png" />
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104290404', 'ym');
+
+        ym(104290404, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/104290404" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
     <header>
@@ -40,7 +57,7 @@
                 <div class="header-row--mobile-bottom">
                     <div id="mobile-menu" class="header-mobile__bottom">
                         <section class="header-mobile__section">
-                            <a class="menu-element">UZ версия</a>
+                            <a href="https://isft-freshers.github.io/uz/" class="menu-element">UZ версия</a>
                             <a href="#schedule" class="menu-element">Расписание</a>
                             <a href="#tour" class="menu-element">Короткий тур</a>
                             <a href="#familiarity" class="menu-element">Кто есть кто</a>
